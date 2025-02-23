@@ -13,6 +13,6 @@ class Employee:
         print(f"Position: {self.position}")
         print(f"Salary: {self.salary}")
 
-employee1 = Employee("Nikka", "Costumer Service", 10000)
+employee1 = Employee("Nikka", "IT Specialist", 10000)
 employee1.give_raise(5000)
 employee1.display_employee()
