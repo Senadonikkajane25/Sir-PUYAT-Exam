@@ -1,4 +1,3 @@
-# task2.py
 class Student:
     def __init__(self, name, age, course):
         self.name = name
