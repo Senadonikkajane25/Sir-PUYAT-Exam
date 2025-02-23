@@ -1,5 +1,3 @@
-# task1.py
-
 class Car:
     def __init__(self, brand, model, year):
         self.brand = brand
@@ -14,5 +12,7 @@ class Car:
 car1 = Car("Ford", "Mustang", 2023)
 car2 = Car("Chevrolet", "Camaro", 2021)
 
+print("Car 1:")
 car1.display_info()
+print("Car 2:")
 car2.display_info()
